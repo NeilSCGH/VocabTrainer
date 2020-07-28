@@ -3,25 +3,30 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    xmlns:local="clr-namespace:VocabTrainer"
     mc:Ignorable="d"
-    Title="MainWindow" Height="345.074" Width="702.595">
+    Title="VocabTrainer" Height="345.074" Width="702.595">
     
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="1*" />
-            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="1*" />
-            <RowDefinition Height="1*" />
-            <RowDefinition Height="1*" />
+            <RowDefinition Height="30" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
         </Grid.RowDefinitions>
 
-        <Label x:Name="question" Content="Question" Grid.ColumnSpan="2" HorizontalContentAlignment="Center" VerticalContentAlignment="center"/>
-        <Button x:Name="answer1" Grid.Column="0" Grid.Row="1" Click="Answer1_Click">Answer 1</Button>
-        <Button x:Name="answer2" Grid.Column="1" Grid.Row="1" Click="Answer2_Click">Answer 2</Button>
-        <Button x:Name="answer3" Grid.Column="0" Grid.Row="2" Click="Answer3_Click">Answer 3</Button>
-        <Button x:Name="answer4" Grid.Column="1" Grid.Row="2" Click="Answer4_Click">Answer 4</Button>
+        <Label x:Name="labelPtn" Content="Points : 0" HorizontalAlignment="Left" Grid.Column="0" Grid.Row="0"/>
+        <Button x:Name="reverseBtn" Grid.Column="1" Grid.Row="0" Width="60" HorizontalAlignment="right" Click="reverseBtn_Click">Reverse</Button>
+        
+        <Label x:Name="question" Grid.ColumnSpan="2" Grid.Row="1" Content="Question" HorizontalContentAlignment="Center" VerticalContentAlignment="center"/>
+        
+        <Button x:Name="answer1" Grid.Column="0" Grid.Row="2" Click="Answer1_Click">Answer 1</Button>
+        <Button x:Name="answer2" Grid.Column="1" Grid.Row="2" Click="Answer2_Click">Answer 2</Button>
+        <Button x:Name="answer3" Grid.Column="0" Grid.Row="3" Click="Answer3_Click">Answer 3</Button>
+        <Button x:Name="answer4" Grid.Column="1" Grid.Row="3" Click="Answer4_Click">Answer 4</Button>
+        
     </Grid>
 </Window>
