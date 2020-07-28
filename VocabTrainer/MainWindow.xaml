@@ -12,21 +12,21 @@
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="30" />
+            <RowDefinition Height="Auto" />
             <RowDefinition Height="*" />
             <RowDefinition Height="*" />
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
 
-        <Label x:Name="labelPtn" Content="Points : 0" HorizontalAlignment="Left" Grid.Column="0" Grid.Row="0"/>
-        <Button x:Name="reverseBtn" Grid.Column="1" Grid.Row="0" Width="60" HorizontalAlignment="right" Click="reverseBtn_Click">Reverse</Button>
-        
-        <Label x:Name="question" Grid.ColumnSpan="2" Grid.Row="1" Content="Question" HorizontalContentAlignment="Center" VerticalContentAlignment="center"/>
-        
-        <Button x:Name="answer1" Grid.Column="0" Grid.Row="2" Click="Answer1_Click">Answer 1</Button>
-        <Button x:Name="answer2" Grid.Column="1" Grid.Row="2" Click="Answer2_Click">Answer 2</Button>
-        <Button x:Name="answer3" Grid.Column="0" Grid.Row="3" Click="Answer3_Click">Answer 3</Button>
-        <Button x:Name="answer4" Grid.Column="1" Grid.Row="3" Click="Answer4_Click">Answer 4</Button>
+        <Label x:Name="labelPtn" Content="Points : 0" HorizontalAlignment="Left" Grid.Column="0" Grid.Row="0" FontSize="20"/>
+        <Button x:Name="reverseBtn" Grid.Column="1" Grid.Row="0" Width="Auto" HorizontalAlignment="right" Click="reverseBtn_Click" FontSize="20">Reverse</Button>
+
+        <Label x:Name="question" Grid.ColumnSpan="2" Grid.Row="1" Content="Question" HorizontalContentAlignment="Center" VerticalContentAlignment="center" FontSize="20"/>
+
+        <Button x:Name="answer1" Grid.Column="0" Grid.Row="2" Click="Answer1_Click" FontSize="20">Answer 1</Button>
+        <Button x:Name="answer2" Grid.Column="1" Grid.Row="2" Click="Answer2_Click" FontSize="20">Answer 2</Button>
+        <Button x:Name="answer3" Grid.Column="0" Grid.Row="3" Click="Answer3_Click" FontSize="20">Answer 3</Button>
+        <Button x:Name="answer4" Grid.Column="1" Grid.Row="3" Click="Answer4_Click" FontSize="20">Answer 4</Button>
         
     </Grid>
 </Window>
