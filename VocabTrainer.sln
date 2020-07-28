@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VocabTrainer", "VocabTrainer\VocabTrainer.csproj", "{867BB85D-1347-4A6D-8700-C79937FAEFDA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{867BB85D-1347-4A6D-8700-C79937FAEFDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{867BB85D-1347-4A6D-8700-C79937FAEFDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{867BB85D-1347-4A6D-8700-C79937FAEFDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{867BB85D-1347-4A6D-8700-C79937FAEFDA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {48F9D63B-F346-4251-9F98-EB208499E11D}
+	EndGlobalSection
+EndGlobal
