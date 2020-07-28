@@ -42,13 +42,13 @@ namespace VocabTrainer
             answersIds[0] = rng.Next(nb);
 
             do{answersIds[1] = rng.Next(nb);
-            } while (answersIds.Contains(answersIds[1]));
+            } while (answersIds[1] == answersIds[0]);
 
             do{answersIds[2] = rng.Next(nb);
-            } while (answersIds.Contains(answersIds[2]));
+            } while (answersIds[2] == answersIds[0] || answersIds[2] == answersIds[1]);
             
             do{answersIds[3] = rng.Next(nb);
-            } while (answersIds.Contains(answersIds[3]));
+            } while (answersIds[3] == answersIds[0] || answersIds[3] == answersIds[1] || answersIds[3] == answersIds[2]);
 
             realAnswer = rng.Next(4);
 
