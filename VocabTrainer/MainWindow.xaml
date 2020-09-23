@@ -19,7 +19,7 @@
         </Grid.RowDefinitions>
 
         <Label x:Name="labelPtn" Content="Points : 0" HorizontalAlignment="Left" Grid.Column="0" Grid.Row="0" FontSize="20"/>
-        <Button x:Name="reverseBtn" Grid.Column="1" Grid.Row="0" Width="Auto" HorizontalAlignment="right" Click="reverseBtn_Click" FontSize="20">Reverse</Button>
+        <Button x:Name="reverseBtn" Grid.Column="1" Grid.Row="0" Width="85" HorizontalAlignment="right" Click="reverseBtn_Click" FontSize="20">Reverse</Button>
 
         <Label x:Name="question" Grid.ColumnSpan="2" Grid.Row="1" Content="Question" HorizontalContentAlignment="Center" VerticalContentAlignment="center" FontSize="20"/>
 
